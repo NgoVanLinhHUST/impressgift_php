@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a73e4d7-ae62-4a35-a4f8-17005ccbe611" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1ijMBLepYybjM7PcYI26AY9e5h1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/libs" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\impressgift" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\impressgift\public\libs" />
+      <recent name="C:\xampp\htdocs\impressgift\public\imgs" />
+      <recent name="C:\xampp\htdocs\impressgift\public\css" />
+      <recent name="C:\xampp\htdocs\impressgift\public\js" />
+      <recent name="C:\xampp\htdocs\impressgift\admin\libs" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a73e4d7-ae62-4a35-a4f8-17005ccbe611" name="Default Changelist" comment="" />
+      <created>1602416410653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602416410653</updated>
+      <workItem from="1602416416933" duration="5877000" />
+      <workItem from="1603013046440" duration="169000" />
+      <workItem from="1603013251490" duration="4057000" />
+      <workItem from="1603364926160" duration="8046000" />
+      <workItem from="1603625075819" duration="6276000" />
+      <workItem from="1603970838774" duration="5483000" />
+      <workItem from="1604230998507" duration="5470000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="717" y="-578" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603627274471">
+      <screen x="311" y="-720" width="1280" height="680" />
+    </state>
+    <state x="717" y="-578" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/311.-720.1280.680@311.-720.1280.680" timestamp="1603627274471" />
+    <state x="785" y="-447" key="NewPhpFileDialog" timestamp="1604235749939">
+      <screen x="311" y="-720" width="1280" height="680" />
+    </state>
+    <state x="785" y="-447" key="NewPhpFileDialog/0.0.1920.1040/311.-720.1280.680@311.-720.1280.680" timestamp="1604235749939" />
+    <state x="711" y="418" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603015205498" />
+    <state x="451" y="-720" key="SettingsEditor" timestamp="1602416437479">
+      <screen x="311" y="-720" width="1280" height="680" />
+    </state>
+    <state x="451" y="-720" key="SettingsEditor/0.0.1920.1040/311.-720.1280.680@311.-720.1280.680" timestamp="1602416437479" />
+    <state x="607" y="-209" key="run.anything.popup" timestamp="1603371700283">
+      <screen x="311" y="-720" width="1280" height="680" />
+    </state>
+    <state x="607" y="-209" key="run.anything.popup/0.0.1920.1040/311.-720.1280.680@311.-720.1280.680" timestamp="1603371700283" />
+    <state x="614" y="-719" width="672" height="678" key="search.everywhere.popup" timestamp="1603626886525">
+      <screen x="311" y="-720" width="1280" height="680" />
+    </state>
+    <state x="614" y="-719" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/311.-720.1280.680@311.-720.1280.680" timestamp="1603626886525" />
+  </component>
+</project>

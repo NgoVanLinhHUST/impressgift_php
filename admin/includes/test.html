@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p style="color:blue;text-align:center; font-size: 200px">Your Temp :  </p>
+<span id="presscount" style="color:blue; font-size: 200px"><center>%t_object%</center><span>
+  <script>
+      setInterval(function () {
+          var xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+              if (this.readyState == 4 && this.status == 200) {
+                  document.getElementById("presscount").innerHTML =
+                      this.responseText;
+              }
+          };
+          xhttp.open("GET", "/presscount", true);
+          xhttp.send();
+      },100);
+    </script>
+</body>
+</html>

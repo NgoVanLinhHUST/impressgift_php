@@ -1,0 +1,545 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+a:hover {
+    /*important dung de uu tien trang thai nay o tat ca cac truong hop*/
+    color: #e41e24;
+    transition: 0.4s;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    max-width: 1170px;
+}
+.header-right-item {
+    padding: 40px;
+}
+.header-right-text {
+    padding-left: 35px;
+    color: #2e2d25;
+}
+.header-right-text h4 {
+    font-size: 13px;
+}
+.header-right-text h4 a {
+    color: #333333;
+}
+.header-right-text p {
+    font-weight: 300;
+    font-size: 13px;
+}
+.menu {
+    background-color: #25231d;
+}
+.name-menu , .child-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.name-menu {
+    letter-spacing: -4px;
+}
+.name-menu>li {
+    display: inline-block;
+    letter-spacing: 0;
+}
+.has-child {
+    position: relative;
+}
+.child-menu {
+    position: absolute;
+    top: 100%;
+    left: 30px;
+    width: 250px;
+    /*an table con chay tu phai qua trai*/
+    visibility: hidden;
+    z-index: 99999;
+}
+.child-menu>li {
+    padding: 12px 20px;
+    display: block;
+    margin-top: -1px;
+    background-color: #2e2d25;
+}
+.name-menu>li>a {
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    padding: 12px 20px;
+}
+.child-menu>li:first-child {
+    margin-top: 0;
+}
+.child-menu a {
+    display: block;
+    color: #eee;
+}
+.name-menu>li>a:hover, .name-menu>li.active>a, .child-menu>li:hover{
+    background-color: #e41e24;
+}
+.has-child:hover>.child-menu {
+    left: 0;
+    transition: 0.3s;
+    /*hien bang con chay tu phai qua trai*/
+    visibility: visible;
+}
+.header-search {
+    background-color: #e41e24;
+    display: inline-block;
+    margin-top: 6px;
+    border-radius: 30px;
+}
+.header-search input {
+    /*trong suot*/
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+}
+.header-search input::placeholder {
+    color: #fff;
+    opacity: 0.45;
+    padding-left: 15px;
+}
+.header-search input:focus {
+    outline: none;
+}
+.header-search button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    padding-right: 5px;
+}
+.header-search button:focus {
+    outline: none;
+}
+
+.content-menu ul {
+    list-style-type: none;
+    padding-left: 0;
+    box-shadow: 0 0 10px 0 #b7b7b7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.content-menu ul a {
+    padding: 10px 10px 10px 30px;
+    color: #333;
+    display: block;
+    position: relative;
+}
+.content-menu ul a::after {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f105";
+    /*cach can giua 1 thanh phan torng div*/
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: #e41e24;
+}
+.content-menu ul a:hover, .content-menu ul li.active a {
+    background-color: #e41e24;
+    color: white;
+    /*tao thanh ngang ra ngoai 1 khoang 10px so voi hop*/
+    margin-right: -10px;
+    margin-left: -10px;
+    padding-left: 40px;
+    font-weight: 500;
+}
+.content-menu ul a:hover::after, .content-menu ul li.active a::after {
+    color: #fff;
+    right: 20px;
+}
+.content-view {
+    position: absolute;
+    left: 70px;
+    bottom: 150px;
+}
+
+.product-list-item .image {
+    display: block;
+    background-color: #f5f5f0;
+    position: relative;
+    padding-top: 100%;
+}
+.product-list-item .image img {
+    /*can anh o chinh giua*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.product-list-item .title {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 13px;
+}
+.product-list-item .title a {
+    color: #333333;
+}
+.product-list-item .title a:hover {
+    color: #e41e24;
+}
+.product-list-item .price {
+    color: #f5a527;
+}
+.product-list-item .button a {
+    color: #7b7b7b;
+    border: none;
+    font-weight: 700;
+    font-size: 13px;
+    background-color: #ebebeb;
+    border-radius: 30px;
+}
+.content .view-all {
+    background-color: #e41e24;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.content-left-child {
+    position: absolute;
+    left: 30px;
+    top: 50px;
+}
+.content-left-child .view {
+    padding-top: 25px;
+}
+.content-right-child {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.content-right-child .view {
+    padding-top: 25px;
+}
+.footer {
+    background-color: #f1f1f1;
+}
+.footer h5 {
+    font-weight: 600;
+}
+.footer-solic {
+    width: 40px;
+    background-color: #e41e24;
+    height: 4px;
+    margin-bottom: 20px;
+}
+.footer-item {
+    width: 10px;
+}
+.footer-inform h4 {
+    font-size: 14px;
+}
+.footer-inform p {
+    font-size: 13px;
+}
+.footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer ul li {
+    padding-bottom: 10px;
+}
+.footer ul li a {
+    color: #95999c;
+}
+.subcribe input {
+    border: 1px solid red;
+}
+.subcribe input:focus {
+    outline: none;
+}
+.subcribe input::placeholder {
+    opacity: 0.75;
+}
+.subcribe input[type=text] {
+    border-radius: 3px 0 0 3px;
+    height: 35px;
+}
+.subcribe button[type=submit] {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 0 3px 3px 0;
+    height: 35px;
+}
+.footer-item i {
+    color: #e41e24;
+}
+.sign-up a {
+    display: inline-block;
+    color: white;
+    width: 35px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 7px 0;
+}
+.footer .footer-face {
+    background-color: #1f65ac;
+    margin-left: 10px;
+}
+.footer .footer-insta {
+    background-color: #6e482c;
+    margin-left: 10px;
+}
+.footer .footer-google {
+    background-color: #f03926;
+    margin-left: 10px;
+}
+.footer .footer-youtube {
+    background-color: #d00000;
+    margin-left: 10px;
+}
+.copy-right {
+    background-color: #e31d23;
+}
+.copy-right p {
+    color: white;
+}
+.footer ::placeholder {
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+/*about-us*/
+.login-register {
+    background-color: #f2f2f2;
+}
+.login-register p {
+    margin-bottom: 5px;
+}
+.container-about-us {
+    color: #9a9a9a;
+    word-spacing: 3px;
+}
+.container-content {
+    word-spacing: 2px;
+    line-height: 24px;
+}
+.container-gift ul {
+    list-style-type: none;
+    padding-bottom: 50px;
+}
+.container-gift li {
+    padding-top: 5px;
+}
+.container-gift h5 {
+    font-weight: 700;
+}
+.container-gift i {
+    color: #e41e24;
+}
+.container-image {
+    padding-top: 50px;
+}
+/*projects*/
+.container-project {
+    color: #9a9a9a;
+}
+.project-list-item .image {
+    display: block;
+    position: relative;
+    padding-top: 120%;
+}
+.project-list-item .image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.project-list-item .title {
+    font-size: 14px;
+    font-weight: 400;
+}
+.project-list-item .title a {
+    color: #333333;
+}
+
+/*our products*/
+.read-more {
+    padding: 10px 20px;
+    background-color: #e41e24;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+.content-add .content-item {
+    width: 10px;
+}
+.content-add {
+    color: #333;
+}
+.content-add p {
+    margin-bottom: 7px;
+}
+.table-title .title {
+    color: #7777;
+    border-bottom: 1px solid #7777;
+    /*padding-bottom: 10px;*/
+}
+.table-title .title input {
+    border: none;
+}
+.table-title .title input:focus ,.table-title button:focus {
+    outline: none;
+}
+.table-title a {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #e51e25;
+}
+.table-title button {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 13px;
+    width: 100%;
+}
+/*our-product-child*/
+.inform-item .name a {
+    color: #333333;
+}
+.inform-item .name {
+    font-size: 24px;
+}
+.inform-item .title {
+    color: #878787;
+}
+.inform-item .price {
+    color: #f05738;
+    font-size: 41px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.inform-item .enquiry {
+    background-color: #e41e24;
+    padding: 20px 40px;
+    margin-bottom: 10px;
+}
+.inform-item .enquiry button {
+    color: #ffffff;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+}
+.inform-item button:focus {
+    outline: none;
+}
+.inform-item .link-special {
+    margin-top: 40px;
+}
+.link-special .link-special-face {
+    background-color: #3a579a;
+    border: none;
+    word-spacing: 10px;
+    font-size: 11px;
+}
+.link-special .link-special-twitter {
+    background-color: #00abf0;
+    border: none;
+    word-spacing: 10px;
+    font-size: 11px;
+}
+.link-special .link-special-google {
+    background-color: #ea4335;
+    border: none;
+    word-spacing: 10px;
+    font-size: 11px;
+}
+.link-special .link-special-pinterest {
+    background-color: #cd1c1f;
+    border: none;
+    word-spacing: 10px;
+    font-size: 11px;
+}
+.description {
+    margin-top: 30px;
+}
+.name-description {
+    border: 1px solid #cdcaca;
+    font-size: 19px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    width: 190px;
+    font-weight:600;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+}
+.description-title {
+    border: 1px solid #cdcaca;
+    padding: 30px 30px 20px 40px;
+    color: #878787;
+}
+/*enquiry*/
+.table-product {
+    width: 100%;
+    font-weight: 600;
+}
+.table-row-1 {
+    background-color: #ebebeb;
+    border: 1px solid #9a9a9a;
+}
+.table-row {
+    width: 20px;
+    border: 1px solid #9a9a9a;
+}
+.table-col-2 {
+    padding: 15px 10px 5px 30px;
+    width: 450px;
+    border-right: 1px solid #9a9a9a;
+}
+.table-col-3 {
+    width: 150px;
+    border-right: 1px solid #9a9a9a;
+}
+.table-col-4 {
+    width: 300px;
+    border-right: 1px solid #9a9a9a;
+}
+.table-col {
+    border-right: 1px solid #9a9a9a;
+}
+.table-product .image {
+    position: relative;
+    padding: 20% 10% 10% 20%;
+}
+.table-product .image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.table-product .title {
+    padding-top: 50px;
+}
+.table-quantity {
+    background-color: #ebebeb;
+    padding: 10px;
+    border: none;
+    width: 50px;
+    color: #9a9a9a;
+    margin-left: 45px;
+}
+.table-product .price {
+    color: #ffb80e;
+}
+.content-product {
+    background-color: #f7f7f7;
+}
+.content-product .table-title .title input {
+    background-color: transparent;
+}
